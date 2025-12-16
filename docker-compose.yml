@@ -5,12 +5,16 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: website_sman4
     ports:
       - "8080:80"
     volumes:
       - .:/var/www/html
     depends_on:
       - db
+    networks:
+      # Reference the network defined below
+      - my-network 
   db:
     image: mysql:8.0
     container_name: mysql
@@ -22,3 +26,12 @@ services:
       - "3306:3306"
     volumes:
       - /home/risano/Development/Database/mysql/volume/data:/var/lib/mysql
+    networks:
+      # Reference the network defined below
+      - my-network 
+
+networks:
+  my-network:
+    # Use 'external: true' here ONLY if the network already exists 
+    # and is managed outside this file. Otherwise, omit this line.
+    external: true 

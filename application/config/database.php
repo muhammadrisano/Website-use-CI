@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'websman4',
+	'hostname' => 'db',
+	'username' => 'root',
 	'password' => 'Webdb2025*',
 	'database' => 'website_sman4',
 	'dbdriver' => 'mysqli',
