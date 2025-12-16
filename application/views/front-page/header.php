@@ -104,17 +104,17 @@
                 <p>SISFO</p>
             </div>
             <div class="col-3">
-                <a href="http://" class="float-left">
+                <a href="https://www.sman4padang.online/" class="float-left">
                     <img src="<?= base_url(); ?>assets/images/thubnail/reading-icon.png" alt="" srcset="">
                 </a>
                 <p>ELearning</p>
             </div>
             <div class="col-3">
-                <a href="http://" class="float-left">
+                <a href="http://ppid.sman4padang.sch.id" class="float-left">
                     <img src="<?= base_url(); ?>assets/images/thubnail/multi-user-icon2.png" alt="" srcset="">
                 </a>
                 <p>
-                    Alumni
+                    PPID
                 </p>
             </div>
         </div>

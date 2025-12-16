@@ -1,6 +1,6 @@
   <!-- end Event -->
   <footer id="footer" class="bg-dark">
-    <p class="text-white">copyright Muhammad Risano | SMA Negeri 4 Padang 2018</p>
+    <p class="text-white">SMA Negeri 4 Padang 2018</p>
   </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

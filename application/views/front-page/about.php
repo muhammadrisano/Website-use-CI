@@ -14,13 +14,13 @@
                              <h5>Kepala Sekolah SMAN 4 Padang</h5>
                              <ul>
                                  <li>
-                                     Nama : Retno Dwi Wahyuningsih, S.Pd, M.Si
+                                     Nama  : Reni Lestari,S.Pd,M.Si
                                  </li>
                                  <li>
-                                     NIP : 19633311984122001
+                                     NIP   : 197411132000122003
                                  </li>
                                  <li>
-                                     Email :
+                                     Email :renilestarijazid@gmail.com
                                  </li>
                              </ul>
                          </div>
@@ -30,9 +30,9 @@
                  <div class="col-md-6">
                      <h4>Contact Person</h4>
                      <ul>
-                         <li>Telp : (0751)73661</li>
-                         <li>Email : smaempatpadang@gmail.com</li>
-                         <li>Alamat : Jl. Linggar Jati No. 1, Kelurahan Lubuk Begalung, Kecamatan Lubuk Begalung, Padang, Sumetera
+                         <li>Telp    : (0751)73661</li>
+                         <li>Email   : smaempatpadang@gmail.com</li>
+                         <li>Alamat  : Jl. Linggar Jati No. 1, Kelurahan Lubuk Begalung, Kecamatan Lubuk Begalung, Padang, Sumetera
                              Barat</li>
                      </ul>
 
