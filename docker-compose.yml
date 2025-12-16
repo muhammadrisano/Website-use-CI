@@ -29,6 +29,19 @@ services:
     networks:
       # Reference the network defined below
       - my-network 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db # Links to the 'db' service name in this compose file
+      #PMA_ARBITRARY: 1
+    ports:
+      - "8888:80" 
+    networks:
+      # Reference the network defined below
+      - my-network 
 
 networks:
   my-network:
