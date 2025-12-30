@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: website_sman4
+    restart: always
     ports:
       - "8080:80"
     volumes:
@@ -31,6 +32,7 @@ services:
       - my-network 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    restart: always
     container_name: pma
     depends_on:
       - db
